@@ -1,12 +1,12 @@
 #include "BasicRewardRule.h"
 #include "BasicScoringRule.h"
-#include "FixedInputGenerator.h"
+#include "RandomInputGenerator.h"
 #include "RunSession.h"
 #include "ShopSystem.h"
 
 int main()
 {
-    FixedInputGenerator inputGenerator;
+    RandomInputGenerator inputGenerator;
     BasicScoringRule scoringRule;
     BasicRewardRule rewardRule;
     ShopSystem shopSystem;

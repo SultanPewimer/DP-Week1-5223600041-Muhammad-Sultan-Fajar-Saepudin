@@ -9,6 +9,8 @@ add_executable(Task1
     IInputGenerator.h
     FixedInputGenerator.cpp
     FixedInputGenerator.h
+    RandomInputGenerator.cpp
+    RandomInputGenerator.h
 
     IScoringRule.h
     BasicScoringRule.cpp
