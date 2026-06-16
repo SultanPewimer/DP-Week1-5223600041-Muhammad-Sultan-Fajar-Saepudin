@@ -19,6 +19,8 @@ add_executable(Task1
     IRewardRule.h
     BasicRewardRule.cpp
     BasicRewardRule.h
+    BonusRewardRule.cpp
+    BonusRewardRule.h
 
     ShopSystem.cpp
     ShopSystem.h

@@ -2,7 +2,7 @@
 
 #include "IRewardRule.h"
 
-class BasicRewardRule : public IRewardRule
+class BonusRewardRule : public IRewardRule
 {
 public:
     int computeReward(

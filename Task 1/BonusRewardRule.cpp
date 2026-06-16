@@ -1,11 +1,11 @@
-#include "BasicRewardRule.h"
+#include "BonusRewardRule.h"
 
-int BasicRewardRule::computeReward(
+int BonusRewardRule::computeReward(
     int baseScore,
     int round
 ) const
 {
     static_cast<void>(round);
 
-    return baseScore;
+    return baseScore + 2;
 }

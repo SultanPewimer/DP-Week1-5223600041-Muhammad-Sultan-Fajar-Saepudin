@@ -1,5 +1,5 @@
-#include "BasicRewardRule.h"
 #include "BasicScoringRule.h"
+#include "BonusRewardRule.h"
 #include "RandomInputGenerator.h"
 #include "RunSession.h"
 #include "ShopSystem.h"
@@ -8,7 +8,7 @@ int main()
 {
     RandomInputGenerator inputGenerator;
     BasicScoringRule scoringRule;
-    BasicRewardRule rewardRule;
+    BonusRewardRule rewardRule;
     ShopSystem shopSystem;
 
     RunSession session(
