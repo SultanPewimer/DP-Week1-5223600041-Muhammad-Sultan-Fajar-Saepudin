@@ -1,8 +1,24 @@
-#include <iostream>
+#include "BasicRewardRule.h"
+#include "BasicScoringRule.h"
+#include "FixedInputGenerator.h"
+#include "RunSession.h"
+#include "ShopSystem.h"
 
 int main()
 {
-    std::cout << "Task 1 project initialized.\n";
+    FixedInputGenerator inputGenerator;
+    BasicScoringRule scoringRule;
+    BasicRewardRule rewardRule;
+    ShopSystem shopSystem;
+
+    RunSession session(
+        inputGenerator,
+        scoringRule,
+        rewardRule,
+        shopSystem
+    );
+
+    session.run();
 
     return 0;
 }
